@@ -1,0 +1,35 @@
+1.Which of the following statements are correct about databases : 
+==> A database is a repository of data
+    There are different types of databases - Relational, Hierarchical, No SQL, etc.
+    A database can be populated with data and be queried   
+
+2.Which of the following statements about a database is/are correct?
+==> A database is a logically coherent collection of data with some inherent meaning
+
+3.Select the correct statement below about database services or database instances:
+==> Database services are logical abstractions for managing workloads in a database
+    An instance of the cloud database operates as a service that handles all application requests to work with the data in any of the databases managed by that instance
+    The database service instance is the target of the connection requests from applications
+
+4.Which of these words are reserved words in Python ?
+==>
+— break
+— if
+
+5.What is the proper way to say “good-bye” to Python?
+==>quit()
+
+6.Which of the parts of a computer actually executes the program instructions?
+==> Central Processing Unit
+
+7.What is "code" in the context of this course?
+==> A sequence of instructions in a programming language
+
+8.A USB memory stick is an example of which of the following components of computer architecture?
+==> Secondary Memory
+
+9.What is the best way to think about a "Syntax Error" while programming?
+==> The computer did not understand the statement that you entered
+
+10.Which of the following is not one of the programming patterns covered in Chapter 1?
+==> Random steps
