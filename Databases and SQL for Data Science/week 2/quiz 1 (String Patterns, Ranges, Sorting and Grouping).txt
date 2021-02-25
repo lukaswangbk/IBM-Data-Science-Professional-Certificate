@@ -1,0 +1,14 @@
+1.You want to select author's last name from a table, but you only remember  the author’s last name starts with the letter B, which string pattern  can you use?
+==>  SELECT lastname from author where lastname like 'B%'
+
+2.In a SELECT statement, which SQL clause controls how the result set is displayed?   
+==>  ORDER BY clause
+
+3.Which SELECT statement eliminates duplicates in the result set?   
+==>  SELECT distinct(country) from author  
+
+4.What is the default sorting mode of the ORDER BY clause?   
+==>  Ascending  
+
+5.Which of the following can be used in a SELECT statement to restrict a result set?  
+==>  All of the above  

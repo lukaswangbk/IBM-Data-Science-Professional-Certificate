@@ -61,4 +61,16 @@ order by AVG_SALARY;
 select D.DEP_NAME , E.F_NAME, E.L_NAME
 from EMPLOYEES as E, DEPARTMENTS as D
 where E.DEP_ID = D.DEPT_ID_DEP
-order by D.DEP_NAME, E.L_NAME desc ;
+order by D.DEP_NAME, E.L_NAME desc;
+--or--
+;
+select F_NAME , L_NAME, DEP_ID, DEP_NAME
+from 
+EMPLOYEES a
+join
+(
+select DEPT_ID_DEP, DEP_NAME 
+from DEPARTMENTS
+) b
+on a.DEP_ID = b.DEPT_ID_DEP
+order by DEP_NAME, L_NAME desc;
