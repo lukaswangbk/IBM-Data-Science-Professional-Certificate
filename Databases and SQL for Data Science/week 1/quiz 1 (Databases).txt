@@ -11,25 +11,8 @@
     An instance of the cloud database operates as a service that handles all application requests to work with the data in any of the databases managed by that instance
     The database service instance is the target of the connection requests from applications
 
-4.Which of these words are reserved words in Python ?
-==>
-— break
-— if
+4.The 5 basic SQL commands are...
+==> CREATE, SELECT, INSERT, UPDATE, DELETE
 
-5.What is the proper way to say “good-bye” to Python?
-==>quit()
-
-6.Which of the parts of a computer actually executes the program instructions?
-==> Central Processing Unit
-
-7.What is "code" in the context of this course?
-==> A sequence of instructions in a programming language
-
-8.A USB memory stick is an example of which of the following components of computer architecture?
-==> Secondary Memory
-
-9.What is the best way to think about a "Syntax Error" while programming?
-==> The computer did not understand the statement that you entered
-
-10.Which of the following is not one of the programming patterns covered in Chapter 1?
-==> Random steps
+5.A database stores data in tabular form only. True or False?
+==> False
