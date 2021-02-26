@@ -1,15 +1,15 @@
 -- Drop the PETSALE table in case it exists
 drop table PETSALE;
 -- Create the PETSALE table 
-create table PETSALE (
+create table PETRESCUE (
 	ID INTEGER PRIMARY KEY NOT NULL,
 	ANIMAL VARCHAR(20),
 	QUANTITY INTEGER,
-	SALEPRICE DECIMAL(6,2),
-	SALEDATE DATE
+	COST DECIMAL(6,2),
+	RESCUEDATE DATE
 	);
--- Insert saple data into PETSALE table
-insert into PETSALE values 
+-- Insert sample data into PETRESCUE table
+insert into PETRESCUE values 
 	(1,'Cat',9,450.09,'2018-05-29'),
 	(2,'Dog',3,666.66,'2018-06-01'),
 	(3,'Dog',1,100.00,'2018-06-04'),
