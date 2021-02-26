@@ -41,4 +41,3 @@ CREATE TABLE LOCATIONS (
                             LOCT_ID CHAR(9) NOT NULL,
                             DEP_ID_LOC CHAR(9) NOT NULL,
                             PRIMARY KEY (LOCT_ID,DEP_ID_LOC));
-                            
